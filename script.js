@@ -47,3 +47,17 @@ for (let i = 0; i < edades.length; i++) {
 console.log(media);
 
 // EJERCICIO 2.3 -------------------------------------
+
+// const amigos = ["Ryan", "Kieran", "Mark", "Miguel"]
+
+// const mejoresAmigos = []
+
+// for (let i = 0; i < amigos.length; i++) {
+//     if (amigos[i].length === 4) {
+//         mejoresAmigos.push(amigos[i])
+//     }
+// }
+
+// console.log(mejoresAmigos);
+
+// EJERCICIO 2.4 -------------------------------------
