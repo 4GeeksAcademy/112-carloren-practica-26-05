@@ -36,15 +36,15 @@
 
 // EJERCICIO 2.2 -------------------------------------
 
-let edades = [8, 16, 25, 13, 15, 10]
+// let edades = [8, 16, 25, 13, 15, 10]
 
-let media = 0
+// let media = 0
 
-for (let i = 0; i < edades.length; i++) {
-    media += edades[i] / edades.length
-}
+// for (let i = 0; i < edades.length; i++) {
+//     media += edades[i] / edades.length
+// }
 
-console.log(media);
+// console.log(media);
 
 // EJERCICIO 2.3 -------------------------------------
 
@@ -61,3 +61,27 @@ console.log(media);
 // console.log(mejoresAmigos);
 
 // EJERCICIO 2.4 -------------------------------------
+
+// const listaDeSuper = ["jabon", "pasta", "azucar", "arroz", "tomates"]
+
+// listaDeSuper.push("Shampoo")
+
+// listaDeSuper.shift()
+
+// console.log(listaDeSuper.length);
+
+// console.log(`El elemento "shampoo" tiene el índice ${listaDeSuper.indexOf("Shampoo")}`);
+
+// console.log(listaDeSuper);
+
+// EJERCICIO 3.1 -------------------------------------
+
+// function saludo() {
+//     console.log("Holaaa");
+
+// }
+
+// saludo()
+
+// EJERCICIO 3.2 -------------------------------------
+
