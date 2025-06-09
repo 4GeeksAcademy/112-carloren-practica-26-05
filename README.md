@@ -1,30 +1,39 @@
-# HTML Hello
+# Hello World with React boilerplate
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+Start coding a react application
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps](#local-installation-skip-if-you-are-working-on-codespaces-or-gitpod) and come back to this part of the readme.
 
-## What to do next?
+## How to start coding?
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+- Install the packages with `$ npm install`.
+- Run the webpack server with `$ npm run start`
 
-```bash
-$ pip3 install flask && python3 server.py
+You can update the `styles/index.css` or `js/index.js` depending on your needs.
+Add more files into your, `./src/js/components` or styles folder as you need them.
+
+## Local Installation (skip if you are working on codespaces or gitpod)
+
+Download the boilerplate using git
+
+```
+$ git clone https://github.com/4GeeksAcademy/react-hello.git
+$ cd react-hello
 ```
 
-- You can create as many HTML files as you want.
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+## Publish your website!
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+
+It takes just 2 minutes to deploy, [click here to start the process](https://4geeks.com/docs/start/deploy-to-render-com).
+
+## Other features
+
+- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
+- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
 
 ### Contributors
 
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
+This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
 
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
+You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).

@@ -1,33 +1,41 @@
-# HTML Hello
+# Hello World con la platilla de React
 
-El boilerplate más básico para cualquier estudiante de 4Geeks Academy, empieza tu primer sitio web desde cero.
+> 🎥 Esta plantilla [cuenta con un video tutorial](https://youtu.be/oGpSVBsq7BA), para verlo haz clic aquí.
 
-> Tienes un video tutorial sobre [cómo usar esta plantilla para crear tu primer sitio web aquí](https://youtu.be/dfbDCMu_p-0).
+Comienza a codificar una aplicación con React.
 
-## ¿Qué hacer a continuación?
+> Si estás trabajando localmente en lugar de usar Codespaces o Gitpod, por favor sigue los [pasos de instalación local](#instalación-local-sáltalo-si-estás-trabajando-en-codespaces-o-gitpod) y regresa a esta parte del README.
 
-Crea un archivo `index.html` con [la estructura básica de HTML](https://4geeks.com/es/lesson/what-is-html-learn-html-es#estructura-de-pgina) y ve el resultado en vivo corriendo un servidor web utilizando el siguiente comando:
+## ¿Cómo comenzar a codificar?
+
+- Instala los paquetes con `$ npm install`.
+- Ejecuta el servidor de webpack con `$ npm run start`.
+
+Puedes actualizar los archivos `styles/index.css` o `js/index.js` dependiendo de tus necesidades.  
+Agrega más archivos en las carpetas `./src/js/components` o `styles` según los necesites.
+
+## Instalación local (sáltalo si estás trabajando en Codespaces o Gitpod)
+
+Descarga el boilerplate usando Git:
 
 ```bash
-$ pip3 install flask && python3 server.py
+$ git clone https://github.com/4GeeksAcademy/react-hello.git
+$ cd react-hello
 ```
+## ¡Publica tu sitio web!
 
-- Puedes crear tantos archivos HTML cómo desees.
-- También puedes crear archivos CSS e importarlos en tu página web utilizando una etiqueta `<link>` ubicándola entre las etiquetas `<head></head>`, de la siguiente manera:
+Este boilerplate es 100% compatible con los servicios de alojamiento gratuitos [GitHub Pages](https://pages.github.com/) y [Vercel](https://vercel.com/).
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+Solo toma 2 minutos desplegarlo, [haz clic aquí para comenzar el proceso](https://4geeks.com/docs/start/deploy-to-render-com).
+
+## Otras características
+
+- **Formateo automático de código**: Uso de [Prettier](https://prettier.io/) para la indentación y formateo automático del código.
+- **Reporte de errores**: Uso de [ESLint](https://eslint.org/) para un mejor reporte de errores.
+
+## Contribuidores
+
+Esta plantilla fue creada como parte del [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) de 4Geeks Academy por [Alejandro Sánchez](https://twitter.com/alesanchezr) y otros contribuyentes.  
+Descubre más sobre nuestro [Curso de Desarrollo Full Stack](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) y [Bootcamp de Ciencia de Datos](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
 
 
-## Agradecimientos
-
-Esta y otras plantillas son utilizadas para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp). 
-
-Realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. 
-
-Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero/?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/desarrollador-full-stack/desarrollador-full-stack), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
