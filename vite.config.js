@@ -13,3 +13,7 @@ export default defineConfig({
         outDir: 'dist',
     }
 })
+test: {
+    globals: true
+
+}
