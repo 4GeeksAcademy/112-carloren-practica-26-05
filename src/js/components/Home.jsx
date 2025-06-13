@@ -1,21 +1,40 @@
-import React from "react";
-import Navbar from "./Navbar"
-import Card from "./Card"
-import Jumbotron from "./jumbotron"
+import React, { useState } from "react";
 
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+let clicked = false;
 
 //create your first component
 const Home = () => {
-	let nombre = "Luis"
+	const [nombre, setNombre] = useState("Luis")
+	const [text, setText] = useState("Cambiar nombre")
+	const [color, setColor] = useState("btn-warning")
+
+
+	console.log(nombre);
+
+	function saludar() {
+		console.log(clicked);
+
+		if (clicked === false) {
+			clicked = true
+			setNombre("Carlos")
+			setText("Nombre cambiado")
+			setColor("btn-success")
+		} else {
+			clicked = false
+			setNombre("Luis")
+			setText("Cambiar nombre")
+			setColor("btn-warning")
+		}
+		console.log(clicked);
+
+	}
 	return (
 		<div className="text-center">
-			<Card name="Carlos" />
-			<Card name="Judith" />         {/* Al llamar al componente se le puede pasar cualquier propiedad para utilizarla */}
-			<Card name="Rosinni" />
-			<Card name={nombre} />
+			<h1>Hola {nombre}</h1>
+			<p className={`btn ${color}`} onClick={saludar}>{text}</p>
 		</div>
 	);
 };
